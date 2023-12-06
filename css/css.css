@@ -1,15 +1,69 @@
-.brand-logo {
-    margin-left: 10px;
-}
-
-.nav-wrapper {
-    background-color: red;
-}
-
 .section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     -ms-align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.waves-effect {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.nero {
+    width: 100%;
+    max-width: 200px;
+}
+
+.bakhsh {
+    color: black;
+    font-size: large;
+    font-family: tahoma;
+}
+
+.nav-wrapper {
+    background-color: white;
+}
+
+@media(min-width) {
+
+    .top-navbar {
+        box-shadow: 0 0 50px black;
+    }
+
+
+}
+
+.material-icons {
+    color: black;
+    margin-right: 5px;
+}
+
+.waves-effect {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 500vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-p {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.icon {
+    top: 7px;
+    position: relative;
 }
